@@ -1,0 +1,1746 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear-fix:after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.head-one{
+	width:1349px;
+	height: 34px;
+	background:#f2f2f2;
+	margin: 0 auto;
+}
+.head-l{
+	width: 180px;
+	height: 34px;
+	margin-left:100px;
+	float: left;
+}
+.head-l .list{
+	font-size: 14px;
+	float: left;
+}
+.head-l .list li{
+	width: 90px;
+	height: 34px;
+	float: left;
+	line-height: 34px;
+	text-align: center;
+}
+.head-l .list li:hover{
+	cursor: pointer;
+}
+.head-l .list .white{
+	background:#C7000B;
+	position: relative;
+	color: white;
+}
+.head-l .list .white span{
+	width: 12px;
+	height: 6px;
+	position: absolute;
+	top:34px;
+	left: 39px;
+	background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/head_iconS.png) no-repeat center;
+}
+.head-r{
+	width:632px;
+	height: 34px;
+	float:right;
+	margin-right: 100px;
+}
+.head-r .list-2{
+	float:right;
+}
+.head-r .list-2 li{
+	float:left;
+	width: 89px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+}
+.head-r .list-2 li a{
+	display: inline-block;
+	color: black;
+}
+.head-r .list-2 li a:hover{
+	color: red;
+}
+.head-r .list-2 li span{
+	position: absolute;
+	top: 0;
+	right:-5px;
+	color: #ccc;
+}
+.logo{
+	width: 1349px;
+	height: 80px;
+	margin:0 auto;
+}
+.logo .logo-s{
+	width: 314px;
+	height: 41px;
+	margin: 25px 0 0 100px;
+}
+.logo .logo-s a{
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/logo.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    display: block;	
+}
+.logo .search{
+	width:250px;
+	height:40px;
+	margin-left:900px;
+	margin-top: -40px;
+	border: 1px solid #ccc;
+	border-right:none;
+	position: relative;
+}
+.logo .search input{
+	width:150px;
+	height:30px;
+	border-style: none;
+	outline: none;
+	margin:6px 0 0 10px;
+}
+.sousuo{
+	width:52px;
+	height:41px;
+	background:#C7000B;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sousuo i{
+	position: relative;
+	top:3px;
+	left:7px;
+}
+.sousuo:hover{
+	cursor: pointer;
+}
+.nav{
+	width: 1349px;
+	height: 45px;
+	background:#C7000B;
+	margin: 0 auto;
+}
+.nav .list-3{
+	width: 1000px;
+	height: 45px;
+	margin-left: 100px;
+	float: left;
+	position:absolute;
+	z-index:999;
+}
+.nav .list-3 li{
+	width:165px;
+	height:44px;
+	line-height: 44px;
+	text-align: center;
+	font-size:19px;
+	color:black;
+	float: left;
+}
+.nav .list-3 li a{
+	display: inline-block;
+	color: white;
+}
+.nav .list-3 li:hover{
+	background-color:#AF0812;
+}
+.nav .list-3 .tr-1{
+	position:relative;
+}
+/*------------------------tab切换*/
+.nav .list-3 .tr-1 .one{
+	width: 1000px;
+	height:380px;
+	background:white;
+	position: absolute;
+	top:44px;
+	left: 0;
+	display: none;
+}
+.nav .list-3 .tr-1:hover .one{
+	cursor: pointer;
+	display: block;
+}
+.nav .list-3 .tr-1 .one li:hover{
+	background: white;
+}
+.nav .list-3 .tr-1 .one .top{
+	width: 960px;
+	height: 55px;
+	border-bottom: #CCCCCC;
+}
+.nav .list-3 .tr-1 .one .top p{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	display: inline;
+}
+.nav .list-3 .tr-1 .one .top .b-r{
+	margin-left:250px;
+}
+.nav .list-3 .tr-1 .one .f-l{
+	width:390px;
+	height: 270px;
+	float: left;
+	margin-left:35px;
+}
+.nav .list-3 .tr-1 .one  li{
+	float: left;
+	font-size: 15px;
+	padding-left:20px;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	overflow: hidden;
+}
+.nav .list-3 .tr-1 .one .f-r{
+	width:280px;
+	height:280px;
+	float:left;
+	margin-left:60px;
+}
+.nav .list-3 .tr-1 .one .xia{
+	width: 1000px;
+	height: 35px;
+	background: #CCCCCC;
+	margin-top: 8px;
+	position:relative;
+	overflow: hidden;
+}
+.nav .list-3 .tr-1 .one .xia p{
+	width: 150px;
+	line-height: 35px;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+}
+.nav .list-3 .tr-1 .one .xia p:nth-of-type(1){
+	top: 0;
+	left:30px;
+}
+.nav .list-3 .tr-1 .one .xia p:nth-of-type(2){
+	top: 0;
+	left:140px;	
+}
+.nav .list-3 .tr-1 .one .xia p:nth-of-type(3){
+	top: 0;
+	left:250px;	
+}
+.nav .list-3 .tr-1 .one .xia p:nth-of-type(4){
+	top: 0;
+	left:360px;	
+}
+.nav .list-3 .tr-1 .one .xia p:nth-of-type(5){
+	top: 0;
+	left:800px;	
+}
+/*---------*/
+.nav .list-3 .tr-2 .one-2{
+	width: 1000px;
+	height:380px;
+	background:white;
+	position: absolute;
+	top:44px;
+	left: 0;
+	display: none;
+}
+.nav .list-3 .tr-2:hover .one-2{
+	cursor: pointer;
+	display: block;
+}
+.nav .list-3 .tr-2 .one-2 li:hover{
+	background: white;
+}
+.nav .list-3 .tr-2 .one-2 .top-2{
+	width: 960px;
+	height: 55px;
+	border-bottom: #CCCCCC;
+}
+.nav .list-3 .tr-2 .one-2 .top-2 p{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	display: inline;
+}
+.nav .list-3 .tr-2 .one-2 .top-2 .b-r-2{
+	margin-left:250px;
+}
+.nav .list-3 .tr-2 .one-2 .f-l-2{
+	width:390px;
+	height: 270px;
+	float: left;
+	margin-left:35px;
+}
+.nav .list-3 .tr-2 .one-2  li{
+	float: left;
+	font-size: 15px;
+	padding-left:20px;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	overflow: hidden;
+}
+.nav .list-3 .tr-2 .one-2 .f-r-2{
+	width:280px;
+	height:280px;
+	float:left;
+	margin-left:60px;
+}
+.nav .list-3 .tr-2 .one-2 .xia-2{
+	width: 1000px;
+	height: 35px;
+	background: #CCCCCC;
+	margin-top: 8px;
+	position:relative;
+	overflow: hidden;
+}
+.nav .list-3 .tr-2 .one-2 .xia-2 p{
+	width: 150px;
+	line-height: 35px;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+}
+.nav .list-3 .tr-2 .one-2 .xia-2 p:nth-of-type(1){
+	top: 0;
+	left:30px;
+}
+.nav .list-3 .tr-2 .one-2 .xia-2 p:nth-of-type(2){
+	top: 0;
+	left:140px;	
+}
+.nav .list-3 .tr-2 .one-2 .xia-2 p:nth-of-type(3){
+	top: 0;
+	left:250px;	
+}
+.nav .list-3 .tr-2 .one-2 .xia-2 p:nth-of-type(4){
+	top: 0;
+	left:360px;	
+}
+.nav .list-3 .tr-2 .one-2 .xia-2 p:nth-of-type(5){
+	top: 0;
+	left:800px;	
+}
+/*---------------*/
+.nav .list-3 .tr-3 .one{
+	width: 1000px;
+	height:380px;
+	background:white;
+	position: absolute;
+	top:44px;
+	left: 0;
+	display: none;
+}
+.nav .list-3 .tr-3 .one li{
+	overflow: hidden;
+}
+.nav .list-3 .tr-3:hover .one{
+	cursor: pointer;
+	display: block;
+}
+.nav .list-3 .tr-3 .one li:hover{
+	background: white;
+}
+.nav .list-3 .tr-3 .one .top{
+	width: 960px;
+	height: 55px;
+	border-bottom: #CCCCCC;
+}
+.nav .list-3 .tr-3 .one .top p{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	display: inline;
+}
+.nav .list-3 .tr-3 .one .top .b-r{
+	margin-left:250px;
+}
+.nav .list-3 .tr-3 .one .f-l{
+	width:390px;
+	height: 270px;
+	float: left;
+	margin-left:35px;
+}
+.nav .list-3 .tr-3 .one  li{
+	float: left;
+	font-size: 15px;
+	padding-left:20px;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	overflow: hidden;
+}
+.nav .list-3 .tr-3 .one .f-r{
+	width:280px;
+	height:280px;
+	float:left;
+	margin-left:60px;
+}
+.nav .list-3 .tr-3 .one .xia{
+	width: 1000px;
+	height: 35px;
+	background: #CCCCCC;
+	margin-top: 8px;
+	position:relative;
+	overflow: hidden;
+}
+.nav .list-3 .tr-3 .one .xia p{
+	width: 150px;
+	line-height: 35px;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+}
+.nav .list-3 .tr-3 .one .xia p:nth-of-type(1){
+	top: 0;
+	left:30px;
+}
+.nav .list-3 .tr-3 .one .xia p:nth-of-type(2){
+	top: 0;
+	left:140px;	
+}
+.nav .list-3 .tr-3 .one .xia p:nth-of-type(3){
+	top: 0;
+	left:250px;	
+}
+.nav .list-3 .tr-3 .one .xia p:nth-of-type(4){
+	top: 0;
+	left:360px;	
+}
+.nav .list-3 .tr-3 .one .xia p:nth-of-type(5){
+	top: 0;
+	left:800px;	
+}
+/*-------------------------*/
+.nav .list-3 .tr-4 .one{
+	width: 1000px;
+	height:380px;
+	background:white;
+	position: absolute;
+	top:44px;
+	left: 0;
+	display: none;
+}
+.nav .list-3 .tr-4 .one li{
+	overflow: hidden;
+}
+.nav .list-3 .tr-4:hover .one{
+	cursor: pointer;
+	display: block;
+}
+.nav .list-3 .tr-4 .one li:hover{
+	background: white;
+}
+.nav .list-3 .tr-4 .one .top{
+	width: 960px;
+	height: 55px;
+	border-bottom: #CCCCCC;
+}
+.nav .list-3 .tr-4 .one .top p{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	display: inline;
+}
+.nav .list-3 .tr-4 .one .top .b-r{
+	margin-left:250px;
+}
+.nav .list-3 .tr-4 .one .f-l{
+	width:390px;
+	height: 270px;
+	float: left;
+	margin-left:35px;
+}
+.nav .list-3 .tr-4 .one  li{
+	float: left;
+	font-size: 15px;
+	padding-left:20px;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	overflow: hidden;
+}
+.nav .list-3 .tr-4 .one .f-r{
+	width:280px;
+	height:280px;
+	float:left;
+	margin-left:60px;
+}
+.nav .list-3 .tr-4 .one .xia{
+	width: 1000px;
+	height: 35px;
+	background: #CCCCCC;
+	margin-top: 8px;
+	position:relative;
+	overflow: hidden;
+}
+.nav .list-3 .tr-4 .one .xia p{
+	width: 150px;
+	line-height: 35px;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+}
+.nav .list-3 .tr-4 .one .xia p:nth-of-type(1){
+	top: 0;
+	left:70px;
+}
+.nav .list-3 .tr-4 .one .xia p:nth-of-type(2){
+	top: 0;
+	left:280px;	
+}
+.nav .list-3 .tr-3 .one .xia p:nth-of-type(3){
+	top: 0;
+	left:560px;	
+}
+.nav .list-3 .tr-4 .one .xia p:nth-of-type(4){
+	top: 0;
+	left:700px;	
+}
+.nav .list-3 .tr-4 .one .xia p:nth-of-type(5){
+	top: 0;
+	left:850px;	
+}
+/*-----------------------------*/
+.nav .list-3 .tr-5 .one-2{
+	width: 1000px;
+	height:380px;
+	background:white;
+	position: absolute;
+	top:44px;
+	left: 0;
+	display: none;
+}
+.nav .list-3 .tr-5:hover .one-2{
+	cursor: pointer;
+	display: block;
+}
+.nav .list-3 .tr-5 .one-2 li:hover{
+	background: white;
+}
+.nav .list-3 .tr-5 .one-2 .top-2{
+	width: 960px;
+	height: 55px;
+	border-bottom: #CCCCCC;
+}
+.nav .list-3 .tr-5 .one-2 .top-2 p{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	display: inline;
+}
+.nav .list-3 .tr-5 .one-2 .top-2 .b-r-2{
+	margin-left:250px;
+}
+.nav .list-3 .tr-5 .one-2 .f-l-2{
+	width:390px;
+	height: 270px;
+	float: left;
+	margin-left:35px;
+}
+.nav .list-3 .tr-5 .one-2  li{
+	float: left;
+	font-size: 15px;
+	padding-left:20px;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	overflow:hidden;
+}
+.nav .list-3 .tr-5 .one-2 .f-r-2{
+	width:280px;
+	height:280px;
+	float:left;
+	margin-left:60px;
+}
+.nav .list-3 .tr-5 .one-2 .xia-2{
+	width: 1000px;
+	height: 35px;
+	background: #CCCCCC;
+	margin-top: 8px;
+	position:relative;
+	overflow: hidden;
+}
+.nav .list-3 .tr-5 .one-2 .xia-2 p{
+	width: 150px;
+	line-height: 35px;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+}
+.nav .list-3 .tr-5 .one-2 .xia-2 p:nth-of-type(1){
+	top: 0;
+	left:30px;
+}
+.nav .list-3 .tr-5 .one-2 .xia-2 p:nth-of-type(2){
+	top: 0;
+	left:140px;	
+}
+.nav .list-3 .tr-5 .one-2 .xia-2 p:nth-of-type(3){
+	top: 0;
+	left:800px;	
+}
+/*-------------------------*/
+.nav .list-3 .tr-6 .one{
+	width: 1000px;
+	height:380px;
+	background:white;
+	position: absolute;
+	top:44px;
+	left: 0;
+	display: none;
+}
+.nav .list-3 .tr-6 .one li{
+	overflow: hidden;
+}
+.nav .list-3 .tr-6:hover .one{
+	cursor: pointer;
+	display: block;
+}
+.nav .list-3 .tr-6 .one li:hover{
+	background: white;
+}
+.nav .list-3 .tr-6 .one .top{
+	width: 960px;
+	height: 55px;
+	border-bottom: #CCCCCC;
+}
+.nav .list-3 .tr-6 .one .top p{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	display: inline;
+}
+.nav .list-3 .tr-6 .one .top .b-r{
+	margin-left:250px;
+}
+.nav .list-3 .tr-6 .one .f-l{
+	width:390px;
+	height: 270px;
+	float: left;
+	margin-left:35px;
+}
+.nav .list-3 .tr-6 .one  li{
+	float: left;
+	font-size: 15px;
+	padding-left:20px;
+	width:100px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	overflow: hidden;
+}
+.nav .list-3 .tr-6 .one .f-r{
+	width:280px;
+	height:280px;
+	float:left;
+	margin-left:60px;
+}
+.nav .list-3 .tr-6 .one .xia{
+	width: 1000px;
+	height: 35px;
+	background: #CCCCCC;
+	margin-top: 8px;
+	position:relative;
+	overflow: hidden;
+}
+.nav .list-3 .tr-6 .one .xia p{
+	width: 150px;
+	line-height: 35px;
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+}
+.nav .list-3 .tr-6 .one .xia p:nth-of-type(1){
+	top: 0;
+	left:70px;
+}
+.nav .list-3 .tr-6 .one .xia p:nth-of-type(2){
+	top: 0;
+	left:280px;	
+}
+.nav .list-3 .tr-6 .one .xia p:nth-of-type(3){
+	top: 0;
+	left:560px;	
+}
+.nav .list-3 .tr-6 .one .xia p:nth-of-type(4){
+	top: 0;
+	left:700px;	
+}
+.nav .list-3 .tr-6 .one .xia p:nth-of-type(5){
+	top: 0;
+	left:850px;	
+}
+.wai{
+    width: 293px;
+    height: 368px;
+    position: absolute;
+    left: 50%;
+    top: 186px;
+    margin-left: -510px;
+	background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2018/login1.png) no-repeat;    
+	font-size: 12px;
+}
+.wai .nei{
+	width: 237px;
+	height: 46px;
+	position: relative;
+}
+.wai .nei input{
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_btn1.png) no-repeat;
+    width: 237px;
+    height: 43px;
+    border: 0;	
+    position: absolute;
+    top:40px;
+    left:20px;
+}
+.wai .nei a{
+	text-decoration: none;
+	position:absolute;
+	top:37px;
+	left:90px;
+}
+.wai .nei a p{
+	width: 128px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	color: white;
+}
+.wai .nei a p span{
+	background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png) no-repeat center center;
+    width: 11px;
+    height: 43px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 140px;
+}
+.fd{
+	width: 237px;
+	height:44px;
+	position:absolute;
+	top: 100px;
+	left:20px;
+}
+.fd .list-4{
+	float: left;
+	width: 237px;
+	height: 44px;
+}
+.fd .list-4 li{
+	width: 60px;
+	height:16px;
+	line-height: 16px;
+	text-align: center;
+	float: left;
+	padding-left:14px;
+	margin-top: 5px;
+	border-right:1px solid #ccc ;
+}.fd .list-4 .hh{
+	border-right: none;
+}
+.wai .qiye input{
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_btn2.png) no-repeat;
+    width: 237px;
+    height: 43px;
+    border: 0;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+}
+.wai .qiye a{
+	text-decoration: none;
+	position:absolute;
+	top:160px;
+	left:90px;
+}
+.wai .qiye a p{
+	width: 128px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	color: white;
+}
+.wai .qiye a p span{
+	background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png) no-repeat center center;
+    width: 11px;
+    height: 43px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 140px;	
+}
+.wai .san{
+	width: 237px;
+	height: 22px;
+	position: absolute;
+	top: 220px;
+	left: 20px;
+	/*border: 1px solid red;*/
+}
+.wai .san .list-5{
+	float: left;
+	width: 237px;
+	height: 22px;
+}
+.wai .san .list-5 li{
+	float: left;
+	width: 60px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	margin-left:8px;
+}
+/*-----*/
+.wai .ds input{
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2018/btn1.png) no-repeat;
+    width: 237px;
+    height: 43px;
+    border: 0;
+    position: absolute;
+    top:250px;
+    left: 20px;
+}
+.wai .ds a{
+	text-decoration: none;
+	position:absolute;
+	top:250px;
+	left:76px;
+}
+.wai .ds a p{
+	width: 128px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	color: white;
+}
+.wai .ds a p span{
+	background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/login_icon_l.png) no-repeat center center;
+    width: 11px;
+    height: 43px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 140px;	
+}
+.wai .people{
+	width: 150px;
+	height: 16px;
+	position: absolute;
+	top: 300px;
+	left: 20px;
+}
+.wai .people li{
+	float:left;
+	margin-left:15px ;
+}
+.important{
+	width:1349px;
+	height: 41px;
+	margin: 0 auto;
+	position: relative;
+	background: #F2F2F2;
+}
+.important .gg{
+	width:125px;
+	height: 40px;
+	/*border: 1px solid red;*/
+	margin-left:200px;
+	position: relative;
+}
+.important .gg .zy{
+	width: 125px;
+	height: 40px;
+	line-height: 40px;
+	margin-left:50px;
+}
+.important .gg .zy span{
+    width: 23px;
+    height: 21px;
+    top: 10px;
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/icon_lb.png) no-repeat center;
+    display: block;
+    position: absolute;
+    left: 11px;
+}
+.important .xue{
+	width: 620px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	left:380px;
+}
+.important .xue a:hover{
+	color: red;
+}
+.important .xue p{
+	font-size: 14px;
+	width: 620px;
+	height: 32px;
+	line-height:40px;
+	color: black;
+}
+.important .duo{
+	cursor: pointer;
+    width: 64px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #0d131a;
+    position: absolute;
+    top: 0px;
+    right:150px;
+}
+.important .duo a{
+	color: black;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/more.png) no-repeat right;
+    cursor: pointer;
+}
+.important .duo a:hover{
+	color: red;
+}
+.tab-2{
+	width: 1348px;
+	height:200px;
+	/*border:1px solid red ;*/
+	margin: 0 auto;
+	background: #F2F2F2;
+}
+.tab-2 .list-6{
+	width: 1000px;
+	height: 170px;
+	margin:0 auto;
+}
+.tab-2 li{
+	width: 200px;
+	height: 150px;
+	float: left;
+	position: relative;
+	top:20px;
+}
+.tab-2 li:hover .lb{
+	display: block;
+}
+.tab-2 li img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+.tab-2 li .yiqi{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;	
+}
+.tab-2 .sheng{
+	width: 202px;
+    height: 24px;
+    cursor: pointer;
+	position: relative;
+	top:10px;
+}
+.tab-2 .sheng .look{
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    width: 202px;
+    color: #686868;	
+}
+.tab-2 .look span{
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/sx.png) no-repeat;
+    width: 9px;
+    height: 6px;
+    display: inline-block;
+    margin-left: 2px;	
+}
+.tab-2 .lb{
+	width:200px;
+	height: 200px;
+	border-bottom:3px solid #F2F2F2;
+	border-top:3px solid orange ;
+	display: none;
+	position: absolute;
+	top:120px;
+}
+.tab-2 .lb dl{
+	width: 200px;
+	height: 200px;
+	font-size: 15px;
+}
+.tab-2 .lb dl dd{
+	width: 200px;
+	height:26px;
+	line-height:26px;
+	text-align: center;
+	background:white;
+}
+.tab-2 .lb dl dd:hover{
+	background:#F2F2F2;
+}
+.resever{
+	width:1349px;
+	height:700px;
+	margin: 0 auto;
+}
+.resever-s{
+	width: 1000px;
+	height:700px;
+	margin: 0 auto;
+}
+.resever-s .fuwu{
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_T_tit.png) no-repeat;
+    width: 368px;
+    height: 59px;
+    margin: 0 auto;
+}
+.resever-s .bianli{
+	width: 1000px;
+	height: 58px;
+	position: relative;
+}
+.resever-s .bianli .touzi{
+	width: 1000px;
+	height: 51px;
+}
+.resever-s .bianli .touzi span{
+	width: 6px;
+	height: 24px;
+	position: absolute;
+	left:5px;
+	display: block;
+	background: #ff6200;
+}
+.resever-s .bianli .touzi p{
+	height: 24px;
+	line-height: 24px;
+	font-size: 24px;
+	padding-left: 14px;
+	color: black;
+	margin-top: 13px;
+}
+.resever-s .bianli .hui{
+    width: 100%;
+    height: 7px;
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_di.png) center top repeat-x;
+    position: absolute;
+    top:30px;
+}
+.resever-s .zhifu{
+	width: 1000px;
+	height: 508px;
+	position: relative;
+}
+.resever-s .zhifu .dh{
+	width: 1000px;
+	height: 46px;
+	position: relative;
+}
+.resever-s .zhifu .dh .list-7{
+	width: 730px;
+	height: 45px;
+	float: left;
+}
+.resever-s .zhifu .dh .list-7 li{
+	float: left;
+	width: 135px;
+	height: 45px;
+	line-height: 45px;
+	text-align:center;
+}
+.resever-s .zhifu .dh .list-7 .mr{
+	border-bottom:2px solid orange;
+}
+.resever-s .zhifu .btu{
+	width: 1000px;
+	height: 462px;
+	padding-top: 2px;
+}
+/*.............................................*/
+.resever-s .zhifu .btu .free-1{
+	width: 1000px;
+	height: 460px;
+	position: absolute;
+	top:50px;
+	left: 0;
+}
+.resever-s .zhifu .btu .free-1 .ab{
+	width: 667px;
+	height: 460px;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.resever-s .zhifu .btu .free-1 .ab .zt{
+	width:160px;
+	height: 114px;
+	position: absolute;
+	top:100px;
+	left: 50px;
+}
+.resever-s .zhifu .btu .free-1 .ab .zt h1{
+    font-size: 18px;
+    color: #0d131a;
+    line-height: 2;
+    margin-left: 13px;
+}
+.resever-s .zhifu .btu .free-1 .ab .zt p{
+	width: 140px;
+	height: 24px;
+	font-size: 14px;
+}
+.resever-s .zhifu .btu .free-1 .ab .zt p span {
+    width: 6px;
+    height: 6px;
+    background: #ff6200;
+    display: inline-block;
+    margin-right: 6px;
+}
+.resever-s .zhifu .btu .free-1 .ab .like{
+    cursor: pointer;
+    width: 75px;
+    height: 25px;
+    background-color: #ff6200;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top:250px;
+    left:50px;
+}
+.resever-s .zhifu .btu .free-1 .ab .like a{
+	color: white;
+}
+.resever-s .zhifu .btu .you-1{
+	width: 333px;
+	height: 447px;
+	position: absolute;
+	top: 0;
+	left:666px;
+}
+.resever-s .zhifu .btu .you-1 .list-8{
+	width: 333px;
+	height: 437px;
+	float: left;
+}
+.resever-s .zhifu .btu .you-1 .list-8 .hx{
+	width: 333px;
+	height: 218px;
+	border-bottom:1px solid #CCCCCC;
+	position: relative;
+}
+.resever-s .zhifu .btu .you-1 .list-8 .dong{
+	width: 313px;
+	height: 114px;
+	margin-top: 20px;
+}
+.resever-s .zhifu .btu .you-1 h2{
+    font-size:21px;
+    color: #0d131a;
+    line-height: 2;
+    margin-left:20px;	
+}
+.resever-s .zhifu .btu .you-1 p{
+	width:190px;
+	height: 24px;
+	font-size: 15px;	
+	margin-left:20px;
+}
+.resever-s .zhifu .btu .you-1 span{
+    width: 6px;
+    height: 6px;
+    background: #ff6200;
+    display: inline-block;
+    margin-right: 6px;	
+}
+.resever-s .zhifu .btu .you-1 .like-2{
+    cursor: pointer;
+    width: 75px;
+    height: 25px;
+    background-color: #ff6200;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top:130px;
+    left:40px;
+}
+.resever-s .zhifu .btu .you-1 .like-2 a{
+	color: white;
+}
+.resever-s .zhifu .btu .you-1 .zong{
+	width: 88px;
+	height: 88px;
+	position: absolute;
+	top:77px;
+	left:160px;
+}
+.resever-s .zhifu .btu .you-1 .list-8 .hxx{
+	width: 333px;
+	height: 218px;
+	border-bottom:1px solid #CCCCCC;
+	position: relative;
+}
+.resever-s .zhifu .btu .you-1 .list-8 .dong{
+	width: 313px;
+	height: 114px;
+	margin-top: 20px;
+}
+.resever-s .zhifu .btu .you-1 .list-8 .dong h1{
+    font-size:21px;
+    color: #0d131a;
+    line-height: 2;
+    margin-left:20px;	
+}
+.resever-s .zhifu .btu .you-1 .list-8 .dong p{
+	width:190px;
+	height: 24px;
+	font-size: 15px;	
+	margin-left:20px;
+}
+.resever-s .zhifu .btu .you-1 .list-8 .dong span{
+    width: 6px;
+    height: 6px;
+    background: #ff6200;
+    display: inline-block;
+    margin-right: 6px;	
+}
+.resever-s .zhifu .btu .you-1 .list-8 .like-3{
+    cursor: pointer;
+    width: 75px;
+    height: 25px;
+    background-color: #ff6200;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top:130px;
+    left:40px;
+}
+.resever-s .zhifu .btu .you-1 .list-8 .like-3 a{
+	color: white;
+}
+.resever-s .zhifu .btu .you-1 .zong{
+	width: 88px;
+	height: 88px;
+	position: absolute;
+	top:77px;
+	left:160px;
+}
+/*-----------------------------------------*/
+.act{
+	width: 1000px;
+	height:757px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+.act .shenghuo-2{
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_Y_tit.png) no-repeat;
+    width: 368px;
+    height: 59px;
+    margin: 0 auto;
+    position: relative;
+    top: -12px;
+    z-index: 1;	
+}
+.act .jr{
+	width: 1000px;
+	height: 51px;
+}
+.act .jr p{
+	padding-left: 14px;
+    font-size: 24px;
+    color: #0d131a;
+    height: 24px;
+    line-height: 24px;	
+}
+.act .jr span{
+    width: 6px;
+    height: 24px;
+    display: block;
+    background-color: #c7000b;
+    position: absolute;	
+}
+.act .jr .kl{
+    width: 100%;
+    height: 7px;
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_di.png) center top repeat-x;
+    position: relative;
+    top: 8px;
+}
+.act .main-1{
+	width: 1000px;
+	height: 140px;
+	position: relative;
+}
+.act .main-1 .ying{
+	width: 446px;
+	height: 110px;
+}
+.act .main-1 .ying p span{
+    width: 6px;
+    height: 6px;
+    background: #c7000b;
+    display:inline-block;
+    position: relative;
+    top: -3px;
+}
+.act .main-1 .ying p{
+	width: 330px;
+	height:30px;
+	line-height: 30px;
+	text-align:left;
+	padding-left: 15px;
+	padding-top:6px;
+}
+.act .main-1 .sige{
+	width: 556px;
+	height: 110px;
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+.act .main-1 .sige .list-9{
+	width: 556px;
+	height: 110px;
+	float:left;
+}
+.act .main-1 .sige .list-9 li{
+	width: 130px;
+	height: 110px;
+	float: left;
+	padding-left:9px;
+}
+.act .bo{
+	width: 1000px;
+	height: 500px;
+	position: relative;
+}
+.act .bo .siyi{
+	width: 225px;
+	height: 230px;
+	position: absolute;
+	top: 0;
+	left:448px;
+	background: white;
+}
+.act .bo .siyi .zhu{
+	width: 224px;
+	height: 75px;
+}
+.act .bo .siyi .zhu h1{
+	width: 225px;
+	height: 24px;
+    font-size: 18px;
+    color: #0d131a;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 22px;
+    padding-top: 30px;	
+    display: inline-block;
+}
+.act .bo .siyi .zhu p{
+	color: red;
+	margin-left: 16px;
+}
+.act .bo .siyi .lian{
+	width: 110px;
+	height: 110px;
+	margin-left: 50px;
+}
+.act .bo .siyi .ggao{
+    left: 180px;
+    position: absolute;
+    bottom: 20px;
+    font-size: 12px;
+    color: #686868;
+}
+/*-----------------------------------------------*/
+.act .bo .siyi-2{
+	width: 225px;
+	height: 230px;
+	position: absolute;
+	top:230px;
+	left:0px;
+	background: white;
+}
+.act .bo .siyi-2 .zhu{
+	width: 224px;
+	height: 75px;
+}
+.act .bo .siyi-2 .zhu h1{
+	width: 225px;
+	height: 24px;
+    font-size: 18px;
+    color: #0d131a;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 22px;
+    padding-top: 30px;	
+    display: inline-block;
+}
+.act .bo .siyi-2 .zhu p{
+	color: red;
+	margin-left: 16px;
+}
+.act .bo .siyi-2 .lian{
+	width: 110px;
+	height: 110px;
+	margin-left: 50px;
+}
+.act .bo .siyi-2 .ggao{
+    left: 180px;
+    position: absolute;
+    bottom: 20px;
+    font-size: 12px;
+    color: #686868;
+}
+/*--------------------------------------------------*/
+.act .bo .siyi-3{
+	width: 225px;
+	height: 230px;
+	position: absolute;
+	top:230px;
+	left:225px;
+	background: white;
+}
+.act .bo .siyi-3 .zhu{
+	width: 224px;
+	height: 75px;
+}
+.act .bo .siyi-3 .zhu h1{
+	width: 225px;
+	height: 24px;
+    font-size: 18px;
+    color: #0d131a;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 22px;
+    padding-top: 30px;	
+    display: inline-block;
+}
+.act .bo .siyi-3 .zhu p{
+	color: red;
+	margin-left: 16px;
+}
+.act .bo .siyi-3 .lian{
+	width: 110px;
+	height: 110px;
+	margin-left: 50px;
+}
+.act .bo .siyi-3 .ggao{
+    left: 180px;
+    position: absolute;
+    bottom: 20px;
+    font-size: 12px;
+    color: #686868;
+}
+/*--------------------------------------------*/
+.act .bo .siyi-4{
+	width: 225px;
+	height: 230px;
+	position: absolute;
+	top:230px;
+	left:450px;
+	background: white;
+}
+.act .bo .siyi-4 .zhu{
+	width: 224px;
+	height: 75px;
+}
+.act .bo .siyi-4 .zhu h1{
+	width: 225px;
+	height: 24px;
+    font-size: 18px;
+    color: #0d131a;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 22px;
+    padding-top: 30px;	
+    display: inline-block;
+}
+.act .bo .siyi-4 .zhu p{
+	color: red;
+	margin-left: 16px;
+}
+.act .bo .siyi-4 .lian{
+	width: 110px;
+	height: 110px;
+	margin-left: 50px;
+}
+.act .bo .siyi-4 .ggao{
+    left: 180px;
+    position: absolute;
+    bottom: 20px;
+    font-size: 12px;
+    color: #686868;
+}
+.act .bo .cai{
+	width: 325px;
+	height: 460px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.mao{
+	width: 1020px;
+	height:382px;
+	margin: 0 auto;
+	position: relative;
+}
+.mao .jr{
+	width:474px;
+	height: 61px;
+}
+.mao .jr p{
+	padding-left: 14px;
+    font-size: 24px;
+    color: #0d131a;
+    height: 24px;
+    line-height: 24px;	
+}
+.mao .jr span{
+    width: 6px;
+    height: 24px;
+    display: block;
+    background-color: #c7000b;
+    position: absolute;	
+}
+.mao .jr .kl{
+    width: 100%;
+    height: 7px;
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_di.png) center top repeat-x;
+    position: relative;
+    top: 8px;
+}
+.mao .old{
+	width: 474px;
+	height:165px;
+	border-bottom:1px solid #ccc;
+}
+.mao .old p span{
+	display:inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #c7000b;
+}
+.mao .old .hi{
+	width: 456px;
+	height: 56px;
+	line-height:20px;
+	font-size: 12px;
+	color: #B4B4B4;
+	font-family: "微软雅黑"!important;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.mao .sp{
+	width: 440px;
+	height: 23px;
+	margin-top:60px;
+}
+.mao .sp p{
+	width: 145px;
+	height: 23px;
+	line-height: 23px;
+	float: left;
+}
+.mao .sp p span{
+	width: 4px;
+    height: 16px;
+    display:inline-block;
+    background-color: #d00f1b;
+}
+.mao .mo{
+	width: 468px;
+	height:360px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-bottom: 1px solid #ccc;
+}
+.mao .mo .jr{
+	width:474px;
+	height: 61px;
+}
+.mao .mo .jr p{
+	padding-left: 14px;
+    font-size: 24px;
+    color: #0d131a;
+    height: 24px;
+    line-height: 24px;	
+}
+.mao .mo .jr span{
+    width: 6px;
+    height: 24px;
+    display: block;
+    background-color: #c7000b;
+    position: absolute;	
+}
+.mao .mo .jr .kl{
+    width: 100%;
+    height: 7px;
+    background: url(http://v.icbc.com.cn/userfiles/Resources/ICBC/shouye/images/2017/action_di.png) center top repeat-x;
+    position: relative;
+    top: 8px;
+}
+.mao .mo .nnr{
+	float: left;
+}
+.mao .mo .cc{
+	width: 210px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.mao .mo .list-10{
+	width:255px;
+	height: 132px;
+	float: left;
+}
+.mao .mo .list-10 li{
+	float: left;
+	width: 120px;
+	height: 120px;
+	margin-top: -26px;
+	margin-left:2px;
+}
+.mao .mo .wuzi{
+	width: 233px;
+	height: 96px;
+	margin-left:60px;
+	margin-top: 40px;
+	display: inline-block;
+}
+.mao .mo .wuzi img{
+	margin-left:30px;
+}
+.mao .mo .wuzi-2 img{
+	margin-left:30px;
+}
+.mao .mo .wuzi p{
+	font-size: 14px;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.mao .mo .wuzi-2{
+	width: 233px;
+	height: 96px;	
+	margin-left:250px;
+	position: relative;
+	top: -100px;
+}
+.mao .mo .wuzi-2 p{
+	font-size: 14px;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.foot{
+	width: 1349px;
+	height: 61px;
+	background:#474747;
+	margin: 0 auto;
+	color:#757575;
+}
+.foot .zuo{
+	width:601px;
+	height: 45px;
+	float: left;
+	margin-left:100px;
+}
+.foot .zuo .list-21{
+	width:520px;
+	height: 45px;
+	float: left;
+}
+.foot .zuo .list-21 .dbx{
+	width: 126px;
+	height: 45px;
+}
+.foot .zuo .list-21 li{
+    float: left;
+    height: 61px;
+    line-height: 61px;
+    padding-right:20px;
+}
+.foot .zuo .list-21 li a{
+    color: white;	
+}
+.foot .zuo .list-21 li a:hover{
+	color: red;
+}
+.foot .you .list-22 li a{
+	color: white;
+}
+.foot .you .list-22 li a:hover{
+	color: red;
+}
+.foot .you{
+	width: 401px;
+	height: 61px;
+	float:right;
+	margin-right:80px;
+}
+.foot .you .tt{
+	margin-top:9px;
+}
+.foot .you .list-22{
+	width:501px;
+	height: 61px;	
+	float:left;
+}
+.foot .you .list-22 li{
+	float: left;
+    height: 61px;
+    line-height: 61px;
+    color: #999999;
+    padding-right: 12px;
+    position: relative;
+}
